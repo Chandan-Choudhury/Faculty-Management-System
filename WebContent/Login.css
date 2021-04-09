@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.nav-container {
+	margin-bottom: 3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  margin-bottom: 3rem;
+  max-width: 450px;
+  height: 650px;
+  padding: 35px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.page-footer {
+  height: 60px;
+}
+
+@media screen and (min-width: 480px) {
+  .login-container {
+    width: 600px;
+  }
+}
